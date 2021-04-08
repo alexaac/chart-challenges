@@ -1,2 +1,2 @@
-# 30-day-chart-challenge
+# chart-challenges
 Behold
