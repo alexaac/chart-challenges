@@ -1,4 +1,4 @@
-import { responsivefy } from "/js/globalHelpers.js";
+import { responsivefy } from "../../../js/globalHelpers.js";
 
 // set the dimensions and margins of the diagram
 const margin = 100,
@@ -14,7 +14,6 @@ const svg = d3
   .call(responsivefy);
 
 const zoom = d3.zoom().on("zoom", (event) => {
-
   const currentZoom = `translate(${width / 2 + event.transform.x} ${
     height / 2 + event.transform.y
   }) scale(${event.transform.k})`;
@@ -93,9 +92,7 @@ d3.csv("data/bilateral_migrations_eu_2020.csv").then(function (data) {
     .sort((a, b) => d3.ascending(a.key, b.key));
   // .slice(0, 10);
 
-
   const matrix = makeMatrix(arrayFromRollup);
-
 
   drawMatrix(matrix, labels);
 });

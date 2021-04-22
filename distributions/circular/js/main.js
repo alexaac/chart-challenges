@@ -1,4 +1,4 @@
-import { responsivefy } from "/js/globalHelpers.js";
+import { responsivefy } from "../../../js/globalHelpers.js";
 
 // set the dimensions and margins of the diagram
 // set the dimensions and margins of the diagram
