@@ -1,0 +1,55 @@
+.graticule {
+  fill: none;
+  stroke: #aaa;
+  stroke-width: 1px;
+  stroke-opacity: 0.5;
+  pointer-events: none;
+}
+
+.celestial-sphere {
+  pointer-events: none;
+  fill: #1a055c;
+}
+
+.star-label {
+  font-size: 10px;
+  font-weight: bold;
+  fill-opacity: 0.9;
+  pointer-events: none;
+}
+
+.constellation-label {
+  font-size: 10px;
+  fill: #00ffff;
+  fill-opacity: 0.8;
+  pointer-events: none;
+}
+
+path.constelation {
+  fill: none;
+  stroke: #00ffff;
+  /* stroke-width: 0.3px; */
+  /* stroke-dasharray: 5, 5, 5; */
+  /* stroke: #aaa; */
+
+  opacity: 0.9;
+  pointer-events: all;
+  cursor: pointer;
+}
+
+path.constelation:hover {
+  stroke: red;
+  stroke-width: 2px;
+}
+
+path.star {
+  pointer-events: all;
+  cursor: pointer;
+}
+
+.faded {
+  opacity: 0.2;
+}
+.highlight {
+  stroke-width: 2;
+}

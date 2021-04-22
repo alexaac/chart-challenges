@@ -1,0 +1,338 @@
+[
+  {
+    "name": "30-day-chart-challenge",
+    "title": "#30DayChartChallenge",
+    "type": "parent",
+    "parent": "",
+    "icon": "",
+    "description": "  ",
+    "examples": []
+  },
+  {
+    "name": "comparisons",
+    "title": "Comparisons",
+    "type": "parent",
+    "parent": "30-day-chart-challenge",
+    "icon": "",
+    "description": "  ",
+    "examples": []
+  },
+  {
+    "name": "distributions",
+    "title": "Distributions",
+    "type": "parent",
+    "parent": "30-day-chart-challenge",
+    "icon": "",
+    "description": "  ",
+    "examples": []
+  },
+  {
+    "name": "relationships",
+    "title": "Relationships",
+    "type": "parent",
+    "parent": "30-day-chart-challenge",
+    "icon": "",
+    "description": "  ",
+    "examples": []
+  },
+  {
+    "name": "timeseries",
+    "title": "Timeseries",
+    "type": "parent",
+    "parent": "30-day-chart-challenge",
+    "icon": "",
+    "description": "  ",
+    "examples": []
+  },
+  {
+    "name": "uncertainties",
+    "title": "Uncertainties",
+    "type": "parent",
+    "parent": "30-day-chart-challenge",
+    "icon": "",
+    "description": "  ",
+    "examples": []
+  },
+  {
+    "name": "part-to-whole",
+    "title": "Part To Whole",
+    "type": "child",
+    "parent": "comparisons",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "pictogram",
+    "title": "Pictogram",
+    "type": "child",
+    "parent": "comparisons",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "historical",
+    "title": "Historycal",
+    "type": "child",
+    "parent": "comparisons",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": []
+  },
+  {
+    "name": "magical",
+    "title": "Magical",
+    "type": "child",
+    "parent": "comparisons",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "slope",
+    "title": "Slope",
+    "type": "child",
+    "parent": "comparisons",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "experimental",
+    "title": "Experimental",
+    "type": "child",
+    "parent": "comparisons",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "physical",
+    "title": "Physical",
+    "type": "child",
+    "parent": "distributions",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "animals",
+    "title": "Animals",
+    "type": "child",
+    "parent": "distributions",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": []
+  },
+  {
+    "name": "statistics",
+    "title": "Statistics",
+    "type": "child",
+    "parent": "distributions",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": []
+  },
+  {
+    "name": "abstract",
+    "title": "Abstract",
+    "type": "child",
+    "parent": "distributions",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": []
+  },
+  {
+    "name": "circular",
+    "title": "Circular",
+    "type": "child",
+    "parent": "distributions",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "strips",
+    "title": "Strips",
+    "type": "child",
+    "parent": "distributions",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": []
+  },
+  {
+    "name": "correlation",
+    "title": "Correlation",
+    "type": "child",
+    "parent": "relationships",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "space",
+    "title": "Space",
+    "type": "child",
+    "parent": "relationships",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "multivariate",
+    "title": "Multivariate",
+    "type": "child",
+    "parent": "relationships",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "trees",
+    "title": "Trees",
+    "type": "child",
+    "parent": "relationships",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "pop-culture",
+    "title": "Pop Culture",
+    "type": "child",
+    "parent": "relationships",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": []
+  },
+  {
+    "name": "connections",
+    "title": "Connections",
+    "type": "child",
+    "parent": "relationships",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "global_change",
+    "title": "Global Change",
+    "type": "child",
+    "parent": "timeseries",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": []
+  },
+  {
+    "name": "upwards",
+    "title": "Upwards",
+    "type": "child",
+    "parent": "timeseries",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": []
+  },
+  {
+    "name": "downwards",
+    "title": "Downwards",
+    "type": "child",
+    "parent": "timeseries",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": []
+  },
+  {
+    "name": "animation",
+    "title": "Animation",
+    "type": "child",
+    "parent": "timeseries",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": []
+  },
+  {
+    "name": "tiles",
+    "title": "Tiles",
+    "type": "child",
+    "parent": "timeseries",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": []
+  },
+  {
+    "name": "monochrome",
+    "title": "Monochrome",
+    "type": "child",
+    "parent": "timeseries",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": []
+  },
+  {
+    "name": "demographic",
+    "title": "Demographic",
+    "type": "child",
+    "parent": "uncertainties",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": []
+  },
+  {
+    "name": "trends",
+    "title": "Trends",
+    "type": "child",
+    "parent": "uncertainties",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": []
+  },
+  {
+    "name": "educational",
+    "title": "Educational",
+    "type": "child",
+    "parent": "uncertainties",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": []
+  },
+  {
+    "name": "future",
+    "title": "Future",
+    "type": "child",
+    "parent": "uncertainties",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": []
+  },
+  {
+    "name": "deviations",
+    "title": "Deviations",
+    "type": "child",
+    "parent": "uncertainties",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": []
+  },
+  {
+    "name": "3d",
+    "title": "3D",
+    "type": "child",
+    "parent": "uncertainties",
+    "icon": "default.svg",
+    "description": "  ",
+    "examples": []
+  }
+]

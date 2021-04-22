@@ -1,0 +1,39 @@
+.chart-group {
+  position: relative;
+  padding-bottom: 40%;
+  height: 700px;
+  overflow: hidden;
+  border: 1px solid #969696;
+}
+
+.chart-group iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.title h1 {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.description {
+  padding: 0 0.5rem 0 0;
+
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: #757575;
+  line-height: 120%;
+}
+
+@media (min-width: 850px) {
+  .content {
+    display: grid;
+
+    grid-template-columns: 6fr 1.2fr;
+    grid-template-rows: 700px;
+    grid-gap: 0.5rem;
+  }
+}

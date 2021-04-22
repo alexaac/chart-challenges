@@ -1,0 +1,45 @@
+path {
+  fill: none;
+  stroke: grey;
+}
+
+path.faded,
+line.faded {
+  stroke: lightgray;
+}
+
+path.highlighted,
+line.highlighted {
+  stroke: red;
+}
+
+.faded circle {
+  opacity: 0.4;
+}
+
+.faded text {
+  opacity: 0.1;
+}
+
+.highlighted circle {
+  stroke: black;
+  stroke-width: 3;
+}
+
+.highlighted text {
+  font-weight: bold;
+}
+
+circle {
+  stroke: #d6d6d6;
+  stroke-width: 1px;
+  cursor: pointer;
+}
+
+:root {
+  --country: #849afe;
+  --region: #229ce4;
+  --county: #a382fe;
+  --rang: #7bfef7;
+  --unit: #465de2;
+}

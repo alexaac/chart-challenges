@@ -1,0 +1,34 @@
+.chart-group {
+  background: #d1b284;
+}
+
+path {
+  stroke: none;
+  stroke-width: 0;
+}
+
+@font-face {
+  font-family: "harry-p";
+  src: url("../fonts/HARRYP__.TTF");
+}
+
+svg.chart-group {
+  display: block;
+  margin: 0;
+  font-family: "harry-p";
+  font-size: 20px;
+  border: 1px solid #969696;
+}
+
+svg.chart-group .name-text {
+  font-size: 1rem;
+}
+
+.harry-p {
+  font-family: "harry-p";
+  line-height: 0;
+}
+
+.harry-p h1 {
+  font-size: 50px;
+}
