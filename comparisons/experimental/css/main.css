@@ -1,0 +1,14 @@
+path {
+  cursor: pointer;
+  stroke: red;
+  stroke-width: 0.5px;
+}
+
+path:hover {
+  opacity: 0.7;
+}
+
+.tooltip img {
+  float: left;
+  padding: 10px;
+}

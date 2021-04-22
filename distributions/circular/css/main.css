@@ -1,0 +1,13 @@
+.faded {
+  opacity: 0.2;
+}
+.highlight {
+  stroke-width: 2;
+}
+
+circle {
+  cursor: pointer;
+  pointer-events: all;
+  stroke: black;
+  stroke-width: 0.2;
+}

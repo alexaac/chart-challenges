@@ -1,0 +1,166 @@
+[
+  [
+    {
+      "name": "charms",
+      "title": "Charms",
+      "class": "charms"
+    },
+    {
+      "name": "unforgivable_curses",
+      "title": "Unforgivable Curses",
+      "class": "unforgivable_curses"
+    },
+    {
+      "name": "defensive_charms",
+      "title": "Defensive Charms & Curses",
+      "class": "defensive_charms"
+    }
+  ],
+  [
+    {
+      "name": "wingardium_leviosa",
+      "parent": "charms",
+      "title": "Wingardium Leviosa",
+      "class": "charms"
+    },
+    {
+      "name": "alohomora",
+      "parent": "charms",
+      "title": "Alohomora",
+      "class": "charms"
+    },
+    {
+      "name": "accio",
+      "parent": "charms",
+      "title": "Accio",
+      "class": "charms"
+    },
+    {
+      "name": "expecto_patronum",
+      "parent": "charms",
+      "title": "Expecto Patronum",
+      "class": "charms"
+    },
+    {
+      "name": "crucio",
+      "parent": "unforgivable_curses",
+      "title": "Crucio",
+      "class": "unforgivable_curses"
+    },
+    {
+      "name": "avada_kedavra",
+      "parent": "unforgivable_curses",
+      "title": "Avada Kedavra",
+      "class": "unforgivable_curses"
+    },
+    {
+      "name": "imperio",
+      "parent": "unforgivable_curses",
+      "title": "Imperio",
+      "class": "unforgivable_curses"
+    },
+    {
+      "name": "expelliarmus",
+      "parent": "defensive_charms",
+      "title": "Expelliarmus",
+      "class": "defensive_charms"
+    },
+    {
+      "name": "stupefy",
+      "parent": "defensive_charms",
+      "title": "Stupefy",
+      "class": "defensive_charms"
+    },
+    {
+      "name": "protego",
+      "parent": "defensive_charms",
+      "title": "Protego",
+      "class": "defensive_charms"
+    },
+    {
+      "name": "petrificus_totalus",
+      "parent": "defensive_charms",
+      "title": "Petrificus Totalus",
+      "class": "defensive_charms"
+    }
+  ],
+  [
+    {
+      "name": "wingardium_leviosa_d",
+      "parent": "wingardium_leviosa",
+      "title": "to levitate objects",
+      "class": "charms",
+      "subclass": "wingardium_leviosa"
+    },
+    {
+      "name": "alohomora_d",
+      "parent": "alohomora",
+      "title": "to open magical locks",
+      "class": "charms",
+      "subclass": "alohomora"
+    },
+    {
+      "name": "accio_d",
+      "parent": "accio",
+      "title": "to summon objects",
+      "class": "charms",
+      "subclass": "accio"
+    },
+    {
+      "name": "expecto_patronum_d",
+      "parent": "expecto_patronum",
+      "title": "to chase away dementors",
+      "class": "charms",
+      "subclass": "expecto_patronum"
+    },
+    {
+      "name": "crucio_d",
+      "parent": "crucio",
+      "title": "to torture into insanity",
+      "class": "unforgivable_curses",
+      "subclass": "crucio"
+    },
+    {
+      "name": "avada_kedavra_d",
+      "parent": "avada_kedavra",
+      "title": "to kill instantly",
+      "class": "unforgivable_curses",
+      "subclass": "avada_kedavra"
+    },
+    {
+      "name": "imperio_d",
+      "parent": "imperio",
+      "title": "to control",
+      "class": "unforgivable_curses",
+      "subclass": "imperio"
+    },
+    {
+      "name": "expelliarmus_d",
+      "parent": "expelliarmus",
+      "title": "to disarm or expell",
+      "class": "defensive_charms",
+      "subclass": "expelliarmus"
+    },
+    {
+      "name": "stupefy_d",
+      "parent": "stupefy",
+      "title": "to make into unconsciousness",
+      "class": "defensive_charms",
+      "subclass": "stupefy"
+    },
+    {
+      "name": "protego_d",
+      "parent": "protego",
+      "title": "to shield",
+      "class": "defensive_charms",
+      "subclass": "protego"
+    },
+    {
+      "name": "petrificus_totalus_d",
+      "parent": "petrificus_totalus",
+      "title": "to bind the victims's body",
+      "class": "defensive_charms",
+      "subclass": "petrificus_totalus"
+    }
+  ]
+]
