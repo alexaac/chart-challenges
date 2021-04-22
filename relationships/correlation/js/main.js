@@ -1,4 +1,4 @@
-import { responsivefy } from "/js/globalHelpers.js";
+import { responsivefy } from "../../js/globalHelpers.js";
 
 // set the dimensions and margins of the diagram
 const margin = 140,
@@ -80,9 +80,7 @@ d3.csv("data/bilateral_migrations_eu_2020.csv").then(function (data) {
     }))
     .sort((a, b) => d3.ascending(a.key, b.key));
 
-
   const matrix = makeMatrix(arrayFromRollup);
-
 
   drawMatrix(matrix, labels);
 });
