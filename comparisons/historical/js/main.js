@@ -2,7 +2,7 @@
   https://observablehq.com/@d3/bar-chart-race-explained
   https://observablehq.com/@johnburnmurdoch/bar-chart-race-the-most-populous-cities-in-the-world */
 
-import { responsivefy } from "/js/globalHelpers.js";
+import { responsivefy } from "../../../js/globalHelpers.js";
 
 const n = 12;
 
