@@ -1,0 +1,22 @@
+line {
+  stroke: white;
+}
+
+circle {
+  pointer-events: all;
+  cursor: pointer;
+}
+
+.mapback {
+  pointer-events: none;
+}
+
+svg.chart-group {
+  height: 700px;
+}
+
+@media (max-width: 420px) {
+  svg.chart-group {
+    height: 500px;
+  }
+}
