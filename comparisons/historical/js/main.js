@@ -162,7 +162,7 @@ const drawChartRace = (raceData, mapData) => {
     .attr("class", "mapback")
     .attr("width", mapWidth)
     .attr("height", mapHeight)
-    .style("fill", "#ffffff")
+    .style("fill", "#f9f9f9")
     .style("stroke", "#dddddd");
 
   let mapSubtitle = mapLegend
