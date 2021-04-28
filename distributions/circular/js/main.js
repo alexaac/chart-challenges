@@ -21,8 +21,11 @@ const zoomableGroup = svg
 
 let nodes;
 
+const dataSourceType = d3.select("#data-source").node().value;
+const dataSource = dataSourceType === "sectoare" ? "data/siruta_uat_popb.csv" : "data/siruta_uat_buc.csv";
+
 // Get the data
-d3.csv("data/siruta_uat_popb.csv").then(function (data) {
+d3.csv(dataSource).then(function (data) {
   draw(data);
 });
 
