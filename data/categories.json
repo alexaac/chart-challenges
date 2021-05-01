@@ -80,7 +80,8 @@
     "parent": "comparisons",
     "icon": "default.svg",
     "description": "  ",
-    "examples": []
+    "examples": [],
+    "finished": true
   },
   {
     "name": "magical",
